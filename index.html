@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./image.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>קאפקייק</title>
+    <style>
+      body {
+        background-image: url('./רקע\ מודעה\ \(1\).jpg'); 
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+        }
+      }
+    </script>
+    
+  </head>
+  <body>
+    <!-- class="bg-gradient-to-r from-amber-100 to-rose-400" -->
+      <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
