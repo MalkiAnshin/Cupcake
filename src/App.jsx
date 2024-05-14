@@ -4,19 +4,19 @@ import Banner from './Banner'
 import Products from './Products'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import Slide from './Slide'
+import BannerOrKatalog from './BannerOrKatalog'
 
 
 function App() {
 
   return (
     <>    
-    <Slide />
     {/* <StarsCanvas /> */}
-    <Banner />
+    {/* <Banner /> */}
     {/* <Products /> */}
-    <Footer />
+    <BannerOrKatalog />
     <Navbar />
+    <Footer />
 
 
     </>
