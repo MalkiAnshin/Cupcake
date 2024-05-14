@@ -11,9 +11,6 @@ function App() {
 
   return (
     <>    
-    {/* <StarsCanvas /> */}
-    {/* <Banner /> */}
-    {/* <Products /> */}
     <BannerOrKatalog />
     <Navbar />
     <Footer />
