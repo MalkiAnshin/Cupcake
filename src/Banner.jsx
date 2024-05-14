@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="flex flex-col justify-center text-center">
         <div>
           <img
-            src="../dist/assets/me.png"
+            src="../me.png"
             height={400}
             width={600}
             alt="קאפקייק"
