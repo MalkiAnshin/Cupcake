@@ -14,22 +14,22 @@ export default function Katalog({ setKatalogShow }) {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-80" src="../dist/assets/בלינצעס.jpg" alt="First slide" />
+            <img className="d-block w-80" src="./assets/בלינצעס.jpg" alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../dist/assets/כדורי גבינה.jpg" alt="Second slide" />
+            <img className="d-block w-80" src="./assets/כדורי גבינה.jpg" alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../dist/assets/מיני רולדה.jpg" alt="Third slide" />
+            <img className="d-block w-80" src="../assets/מיני רולדה.jpg" alt="Third slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../dist/assets/רולדה.jpg" alt="Third slide" />
+            <img className="d-block w-80" src="./assets/רולדה.jpg" alt="Third slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../dist/assets/עוגה אפויה משובחת.jpg" alt="Third slide" />
+            <img className="d-block w-80" src="./assets/עוגה אפויה משובחת.jpg" alt="Third slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../dist/assets/עוגת שמנת פירורים.jpg" alt="Third slide" />
+            <img className="d-block w-80" src="./assets/עוגת שמנת פירורים.jpg" alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
