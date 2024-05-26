@@ -19,22 +19,22 @@ export default function Katalog({ setKatalogShow }) {
         </ol>
         <div className="carousel-inner">
           <div className={`carousel-item active`}>
-            <img className="d-block w-80" src="../public/assets/blinches.jpg" alt="First slide" />
+            <img className="d-block w-80" src="../assets/blinches.jpg" alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../public/assets/bull.jpg" alt="Second slide" />
+            <img className="d-block w-80" src="../assets/bull.jpg" alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../public/assets/mini_rolada.jpg" alt="Third slide" />
+            <img className="d-block w-80" src="../assets/mini_rolada.jpg" alt="Third slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../public/assets/rolada.jpg" alt="Third slide" />
+            <img className="d-block w-80" src="../assets/rolada.jpg" alt="Third slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../public/assets/uga_afuia.jpg" alt="Third slide" />
+            <img className="d-block w-80" src="../assets/uga_afuia.jpg" alt="Third slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-80" src="../public/assets/pirurim.jpg" alt="Third slide" />
+            <img className="d-block w-80" src="../assets/pirurim.jpg" alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
