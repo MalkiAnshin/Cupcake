@@ -1,24 +1,19 @@
-
 import React from 'react'
-
-const arr = [""]
 
 export default function Katalog({ setKatalogShow }) {
   return (
     <div className="container flex flex-col justify-between items-center h-screen" style={{ height: '100vh' }}>
       <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="2000">
         <ol className="carousel-indicators">
-          {arr.map((_x, i) =>
-            <li data-target={`#carouselExampleIndicators`} data-slide-to={i} className={i == 0 ? "active" : ''}></li>
-          )}
-          {/* <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> */}
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         </ol>
         <div className="carousel-inner">
-          <div className={`carousel-item active`}>
+          <div className="carousel-item active">
             <img className="d-block w-80" src="../assets/blinches.jpg" alt="First slide" />
           </div>
           <div className="carousel-item">
@@ -56,3 +51,4 @@ export default function Katalog({ setKatalogShow }) {
     </div>
   );
 }
+  

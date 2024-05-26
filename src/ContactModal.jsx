@@ -8,7 +8,7 @@ const ContactModal = ({ isOpen, onRequestClose }) => {
       onRequestClose={onRequestClose}
       className="modal" 
     >
-      <div className="bg-gradient-to-br from-orange-300 via-yellow-100 to-orange-300 p-6 rounded-lg mx-auto my-auto max-w-md">
+      <div className="bg-gradient-to-br from-orange-100 via-yellow-100 to-orange-100 p-6 rounded-lg mx-auto my-auto max-w-md">
         <h4 className="text-white text-lg font-bold mb-4">:צרו איתנו קשר</h4>
         <h2 className="text-white text-2xl font-bold">0533144444</h2>
         <h2 className="text-white text-2xl font-bold">mamamam@gmail.com</h2>

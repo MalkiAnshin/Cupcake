@@ -18,18 +18,6 @@ const Navbar = () => {
     <div className="w-full h-16 bg-transparent  top-0 z-50 backdrop-blur-sm px-10 items-center justify-between">
       <br />
       <br />
-      {/* <a href="/" className="flex items-center space-x-4">
-        <img
-          src="../image.png"
-          alt="me"
-          width={45}
-          height={45}
-          className="w-15 h-15"
-        />
-      </a> */}
-
-
-
       <div className="flex flex-col items-center justify-center">
         <button
           onClick={openModal}
@@ -41,8 +29,6 @@ const Navbar = () => {
           </span>
         </button>
       </div>
-
-
       <ContactModal isOpen={isModalOpen} onRequestClose={closeModal} />
     </div>
   );
