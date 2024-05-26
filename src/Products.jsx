@@ -24,7 +24,7 @@ const Projects = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">כדורי גבינה</p>
                 <p className="text-gray-500 text-[10px]">
-                  Designed a modern UI website comprising more than 50 screens,
+                  UI website comprising more than 50 screens,
                   along with the integration of a blog using Next.js.
                 </p>
               </div>
