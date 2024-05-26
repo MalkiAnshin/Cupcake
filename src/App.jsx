@@ -12,7 +12,7 @@ function App() {
   return (
     <>    
     <BannerOrKatalog />
-    {/* <Navbar /> */}
+    <Navbar />
     <Footer />
 
 
