@@ -9,6 +9,7 @@ const Footer = () => {
         <p className="text-zinc-700 text-center text-sm">
           תשאלו את מי שכבר טעם ❤️
         </p>
+
       </div>
     </div>
   );
