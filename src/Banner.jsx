@@ -22,10 +22,10 @@ const Banner = () => {
         `}
       </style>
 
-      <div className="flex flex-col shadow-2xl  justify-center text-center">
+      <div className="flex flex-col justify-center text-center">
         <div>
           <img
-            src="../assets/image.png"
+            src="../assets/me.png"
             height={400}
             width={600}
             alt="קאפקייק"
