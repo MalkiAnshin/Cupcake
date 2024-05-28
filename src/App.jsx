@@ -1,20 +1,15 @@
-import { useState } from 'react'
-import StarsCanvas from './StarsBackground'
-import Banner from './Banner'
 import Footer from './Footer'
-import Navbar from './Navbar'
 import BannerOrKatalog from './BannerOrKatalog'
+import Navbar from './Navbar'
 
 
 function App() {
 
   return (
     <div>
-      <BannerOrKatalog />
       <Navbar />
+      <BannerOrKatalog />
       <Footer />
-
-
     </div>
   )
 }
