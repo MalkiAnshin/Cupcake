@@ -23,7 +23,11 @@ export default function ContactModal({ isOpen, onCloseModal }) {
                 alt="icon email"
                 className="mr-2"
               />
-              <h2 className="text-black text-2xl font-bold">c0534134212@gmail.com</h2>
+              <a href="mailto:c0534134212@gmail.com?subject=This is an email" className="text-black hover:underline text-2xl font-bold">
+                c0534134212@gmail.com
+              </a>
+
+
             </div>
             <button
               onClick={onCloseModal}

@@ -1,6 +1,7 @@
 import Footer from './Footer'
 import BannerOrKatalog from './BannerOrKatalog'
 import Navbar from './Navbar'
+import Banner from './Banner'
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <BannerOrKatalog />
+      <Banner />
       <Footer />
     </div>
   )

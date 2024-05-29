@@ -7,20 +7,6 @@ import React, { useState } from "react";
 const Banner = () => {
   return (
     <div className="flex flex-row items-center justify-center px-20 z-[20] mt-[65px]">
-      <style>
-        {`
-          @keyframes custom-ping {
-            75%, 100% {
-              transform: scale(2);
-              opacity: 0;
-            }
-          }
-
-          .animate-custom-ping {
-            animation: custom-ping 3s cubic-bezier(0, 0, 0.2, 1) infinite;
-          }
-        `}
-      </style>
 
       <div className="flex flex-col justify-center text-center">
         <div>

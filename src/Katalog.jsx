@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Katalog({ setKatalogShow }) {
   return (
-    <div className="container flex flex-col justify-between items-center h-screen" style={{ height: '100vh' }}>
+    <div className="container flex flex-col justify-center items-center h-screen" style={{ height: '100vh' }}>
       <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="2000">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -41,7 +41,7 @@ export default function Katalog({ setKatalogShow }) {
           <span className="sr-only">Next</span>
         </a>
       </div>
-      <div className="mt-auto mb-40">
+      <div>
         <button
           onClick={() => { setKatalogShow(false) }}
           className="mt-4 bg-transparent text-black font-bold py-2 px-3 rounded-full border-2 border-yellow-600 transition duration-300 hover:bg-amber-50 hover:bg-opacity-100 hover:bg-gradient-to-r from-transparent to-amber-100">
